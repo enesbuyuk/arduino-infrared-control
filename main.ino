@@ -1,5 +1,5 @@
 #include <IRremote.h>
-int RECV_PIN = 5;
+int RECV_PIN = 2; //d2
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 void setup() {
